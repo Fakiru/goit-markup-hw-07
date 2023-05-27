@@ -51,10 +51,6 @@ html {
   display: flex;
 }
 
-.regular-section_subtitle {
-  padding-bottom: 50px;
-}
-
 .regular-customer-section_item a:hover {
   color: #2196f3;
   background-color: #fff;
@@ -91,13 +87,14 @@ html {
   align-items: center;
   justify-content: center;
 }
+
 .social-media_item svg {
   fill: currentColor;
 }
 
 .social-media_item a:hover {
-  color: #fff;
   background-color: #2196f3;
+  color: #fff;
   width: 44px;
   height: 44px;
   border-radius: 50%;
@@ -127,7 +124,7 @@ html {
   gap: 10px;
 }
 
-.our-team-section_item .employee_details .image-description {
+.team__item .team__details .team__description {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.9;
@@ -135,24 +132,24 @@ html {
   color: #757575;
 }
 
-.our-team-section_item .employee_details .image-title {
+.team__item .team__details .team__name {
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
   color: #212121;
 }
 
-.our-team-section_item .employee_details {
+.team__item .team__details {
   display: flex;
   flex-direction: column;
   gap: 10px;
 }
 
-.our-team-section_item picture {
+.team__item picture {
   max-width: 100%;
 }
 
-.our-team-section_item {
+.team__item {
   background: #fff;
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
@@ -164,20 +161,20 @@ html {
   padding-bottom: 30px;
 }
 
-.our-team-section {
+.team__section {
   background: #f5f4fa;
   padding: 94px;
 }
 
-.what-we-do-section_list:nth-child(1) {
+.what__list:nth-child(1) {
   z-index: 1;
 }
 
-.what-we-do-section_list:nth-child(2) {
+.what__list:nth-child(2) {
   z-index: 2;
 }
 
-.what-we-do-section_list {
+.what__list {
   justify-content: center;
   align-items: center;
   font-family: "Roboto";
@@ -188,7 +185,7 @@ html {
   color: #fff;
 }
 
-.what-we-do-section_list {
+.what__list {
   display: flex;
   flex-wrap: wrap;
   gap: 30px;
@@ -196,26 +193,30 @@ html {
   padding: 94px;
 }
 
-.our-team-section_list {
+.team__list {
   display: flex;
   flex-wrap: wrap;
   gap: 30px;
   justify-content: center;
 }
 
-.what-we-do-section .section_subtitle,
-.our-team-section .section_subtitle,
-.section_subtitle {
+.what__subtitle,
+.team__subtitle,
+.customers__subtitle {
   font-size: 36px;
   line-height: 1.2;
   text-align: center;
   letter-spacing: 0.03em;
   color: #212121;
-  padding-bottom: 50px;
+  padding-bottom: 40px;
 }
 
-.section_subtitle {
+.what__subtitle {
   margin-top: 70px;
+}
+
+.what__item {
+  gap: 30px;
 }
 
 .values__image {
@@ -769,27 +770,30 @@ html {
   text-decoration: none;
 }
 .footer-section_item .footer-contact-info {
-  display: flex;
+  display: flexbox;
   flex-direction: column;
   align-items: center;
+  margin-left: 0;
 }
 
 .footer-section_item {
   display: flex;
-
-  width: 301px;
 }
 
 .footer-section_list {
   display: flex;
+  align-items: flex-start;
   flex-wrap: wrap;
   justify-content: center;
   gap: 60px;
+  width: 100%;
 }
 
 .footer-section {
   background: #2f303a;
   padding: 60px 0px;
+  align-items: flex-start;
+  width: 100%;
 }
 
 /* Modal */
