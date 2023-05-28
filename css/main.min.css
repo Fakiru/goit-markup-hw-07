@@ -338,7 +338,7 @@ html {
   background-size: 100%;
 }
 
-.project-section-card_item .project_description .image-description {
+.project__card--item .project__image--description .project__image--description {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.9;
@@ -347,7 +347,7 @@ html {
   color: #757575;
 }
 
-.project-section-card_item .project_description .image-title {
+.project__card--item .project__image--description .project__image--title {
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
@@ -355,13 +355,13 @@ html {
   color: #212121;
 }
 
-.project-section-card_item .project_description {
+.project__card--item .project__image--description {
   padding-top: 20px;
   height: 110px;
   background-color: #fff;
 }
 
-.project-section-card_list {
+.project__card--list {
   display: flex;
   flex-wrap: wrap;
   width: 80%;
@@ -371,7 +371,7 @@ html {
   padding-bottom: 94px;
 }
 
-.project-section-card {
+.project__card {
   display: flex;
   flex-wrap: wrap;
   width: 100%;
@@ -380,12 +380,12 @@ html {
   gap: 30px;
 }
 
-.button-style {
+.tab__style {
   background: #f5f4fa;
   font: #212121;
 }
 
-.project-section-button_list {
+.project__tab--list {
   display: flex;
   justify-content: center;
   gap: 15px;
@@ -394,7 +394,7 @@ html {
   padding-top: 94px;
 }
 
-.project-section-button_item .button-style {
+.project__tab--item .tab__style {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.6;
@@ -410,8 +410,8 @@ html {
   transition: background-color, color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.project-section-button_item .button-style:hover,
-.project-section-button_item .button-style:focus {
+.project__tab--item .tab__style:hover,
+.project__tab--item .tab__style:focus {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.6;
@@ -424,21 +424,22 @@ html {
   border-radius: 4px;
 }
 
-.project_logo:hover .overlay {
+.project__image:hover .overlay {
   top: 0;
   justify-content: center;
 }
 
-.project_logo {
+.project__image {
   position: relative;
   width: 370px;
   height: 294px;
   overflow: hidden;
   text-align: center;
   justify-content: center;
+  margin-bottom: 10px;
 }
 
-.project_logo .overlay {
+.project__image .overlay {
   position: absolute;
   top: 0;
   bottom: 0;
@@ -464,8 +465,8 @@ html {
   line-height: 28px;
   letter-spacing: 0.03em;
   color: #ffffff;
-  padding-top: 50px;
-  padding-bottom: 94px;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 
 .contact__item a:hover,
@@ -848,7 +849,7 @@ html {
   margin-top: -15px;
   margin-right: 4px;
   background: #fff;
-  border: 1px solid rgba(0, 0, 0, 0.1);
+  border: 2px solid rgba(0, 0, 0, 0.1);
   border-radius: 50%;
   padding: 9px;
   cursor: pointer;
