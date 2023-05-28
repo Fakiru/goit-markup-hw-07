@@ -1,9 +1,9 @@
 /*# sourceMappingURL=main.min.css.map */
 @import url("https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap");
-@import "../css/sass/utils/_base.scss";
-@import "../css/sass/utils/_index.scss";
-@import "../css/sass/utils/_modal.scss";
-@import "../css/sass/utils/_portofolio.scss";
+@import "../css/sass/components/_page-base.scss";
+@import "../css/sass/components/_page-index.scss";
+@import "../css/sass/components/_page-modal.scss";
+@import "../css/sass/components/_page-portofolio.scss";
 
 .container {
   width: 1200px;
